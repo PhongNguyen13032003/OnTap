@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\bin\Debug\QuanLiMH.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\bin\Debug\QuanLiMH.exe
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\bin\Debug\QuanLiMH.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.exe
+c:\users\administrator\documents\visual studio 2013\Projects\QuanLiMH\QuanLiMH\obj\Debug\QuanLiMH.pdb
