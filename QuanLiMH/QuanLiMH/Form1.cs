@@ -47,7 +47,7 @@ namespace QuanLiMH
                     connsql.Open();
                 }
                 string insertString;
-                insertString = "Inser into Phong values(' " + textBox1.Text + " ', N'" + textBox2.Text + "')";
+                insertString = "Inser into Table_1 values(' " + textBox1.Text + " ', N'" + textBox2.Text + "')";
                 SqlCommand cmd = new SqlCommand(insertString, connsql);
                 cmd.ExecuteNonQuery();
                 if (connsql.State == ConnectionState.Open)
@@ -64,12 +64,52 @@ namespace QuanLiMH
 
         private void Sua_Click(object sender, EventArgs e)
         {
-            string updateString = "update MaMH set TenMH= ' " + textBox1.Text + "where MaMH'" + textBox2.Text + "'";
+            try
+            {
+                if (connsql.State == ConnectionState.Closed)
+                {
+                    connsql.Open();
+                }
+                string insertString;
+                string updateString = "update MaMH set TenMH= ' " + textBox1.Text + "where MaMH'" + textBox2.Text + "'";
+                SqlCommand cmd = new SqlCommand(insertString, connsql);
+                cmd.ExecuteNonQuery();
+                if (connsql.State == ConnectionState.Open)
+                {
+                    connsql.Close();
+                }
+                MessageBox.Show("Thanh Cong");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("That Bai");
+            }
+            
         }
 
         private void Xoa_Click(object sender, EventArgs e)
         {
-            string deleteString = "delete TenMH where MaMH='" + textBox1.Text + "'";
+            try
+            {
+                if (connsql.State == ConnectionState.Closed)
+                {
+                    connsql.Open();
+                }
+                string insertString;
+                string deleteString = "delete TenMH where MaMH='" + textBox1.Text + "'";
+                SqlCommand cmd = new SqlCommand(insertString, connsql);
+                cmd.ExecuteNonQuery();
+                if (connsql.State == ConnectionState.Open)
+                {
+                    connsql.Close();
+                }
+                MessageBox.Show("Thanh Cong");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("That Bai");
+            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
